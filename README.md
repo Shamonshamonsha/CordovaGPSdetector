@@ -4,12 +4,12 @@ A simple cordova plugin that allows to check to see if GPS is enabled or not
 ---------------------------------------------------------
 INSTALLATION .
 ---------------------------------------------------------
-1.Copy gpsdetector folder  under platforms/android/src/com.
+1.Copy *plugins* folder  under platforms/android/src/com.
 
 2.In your config.xml file add the following(config.xml under the  platforms/android/res/xml).
 
 	<feature name="GpsDetectionPlugin">
-	    <param name="android-package" value="com.gpsdetector.plugins.GPSDetectionPlugin" />
+	    <param name="android-package" value="com.plugins.GPSDetectionPlugin" />
 	</feature>
  
     
